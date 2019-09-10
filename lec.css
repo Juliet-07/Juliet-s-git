@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.first{
+    background-color:black;
+    color: wheat;
+    border-radius:70px; 
+    width: 400px;
+    height: 450px;
+    padding: 50px;
+}
+.first input{
+    margin-bottom: 20px;
+    width: 200px;
+}
+button{
+    margin-left: 200px;
+}
+.second {
+    display: flex;
+    background-color: aquamarine;
+    justify-content: space-between;
+    margin-top: 15px;
+    width: 100%;
+}
+
+ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+.result{
+    display: flex;
+    font-size: 20px;
+}

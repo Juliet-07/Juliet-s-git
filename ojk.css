@@ -1,0 +1,128 @@
+body{
+    width: 100%;
+    background-color: #ddddd6;
+}
+*{
+    margin: 0;
+    padding:0;
+}
+.top{
+    display: flex;
+    background-color: white;
+    justify-content: space-around; 
+    align-items: center;
+}
+.top p{
+    padding: 0px 5px 0px
+}
+.hold{
+    width: 500px;
+}
+.search{
+    background-color: darkorange;
+    text-align: center;
+    color: white;
+    border: 0px;
+    height: 25px;
+    width: 50px;
+}
+.products1{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(224, 18, 18, 0.842);
+    color: white;
+    margin: 10px 5px;
+    border-top-left-radius:5px;
+    border-top-right-radius: 5px;
+    padding: 0px 7px;
+    height: 30px;
+    padding-top: 8px; 
+}
+.products {
+    display: flex;
+    justify-content: space-around;
+    background-color: white;
+    margin: 10px 5px;
+}
+article p{
+    font-size: 12px;
+    text-align: center;
+}
+
+h4{
+    background-color: white;
+    height: 30px;
+    margin: 0px 5px;
+    padding-top: 5px;
+    padding-left: 5px;
+}
+
+.accessories{
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    margin: 0px 5px;
+}
+#menu{
+    display: flex;
+    margin-top: 20px;
+    padding: 2px 5px;
+    justify-content: space-around;
+    background-color: white;
+    margin-top: 7px;
+}
+
+.phonesColor{
+    background-color: darkgoldenrod;
+    color: black;
+}
+.phones1{
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    margin: 0px 5px;
+}
+@media(max-width: 800px){
+    .top{
+        display: block;
+    }
+    .products1{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .products{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    h4{
+        display: block;
+    }
+    .accessories{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .phones{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .phones{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .phones1{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    #menu{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+}

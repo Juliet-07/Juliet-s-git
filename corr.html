@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>corrections</title>
+    <link rel="stylesheet" href="corr.css">
+</head>
+<body>
+    <div id="container">
+        <div class="omg">
+            <h2 id="menu">Menu Icon</h2>
+            <img src="pix/aaa.jpg">
+        </div>
+        
+        <ul class="menulist">
+            <li>H<span>ome</span></li>
+            <li>P<span>rofile</span></li>
+            <li>S<span>ettings</span></li>
+        </ul>
+        <script>
+            function open(){
+               let menulists = document.querySelectorAll(".menulist")
+               console.log(menulists)
+               menulists.forEach(menulist => {
+                   menulist.classList.toggle("appear")
+               })
+            }
+            document.getElementById("menu").addEventListener("click", open)
+        </script>
+    </div>
+    
+</body>
+</html>

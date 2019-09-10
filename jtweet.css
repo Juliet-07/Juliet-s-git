@@ -1,0 +1,109 @@
+body{
+        margin:0px;
+        padding:0px;
+}
+#frontpage{
+    display: flex;
+    width: 100%;
+
+}
+.left{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    width: 15%;
+    height: 100%;
+    padding: 40px;
+}
+img{
+    margin: 20px 0px 30px 0px;
+}
+span{
+    display: inline;
+    padding: 15px;
+}
+.A2{
+    display:flex;
+    flex-direction: column;
+    width: 400px;
+    height: 70px;
+    line-height: 0.1px;
+    font-size: 10px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    border-bottom: 1px  solid rgba(182, 187, 187, 0.466);
+    margin-left: 30px;
+}
+.A21{
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    border-bottom:  1px  solid rgba(182, 187, 187, 0.466);
+    margin-left: 30px;
+}
+.A22{
+    margin:10px 0px 0px 32px;
+}
+button{
+    background-color: #1da1f2;
+    color: white;
+    justify-content: center;
+    width: 110px;
+    border-radius: 40px;
+    height:40px;
+    margin-bottom: 20px;
+}
+.middle{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    border-right:1px solid rgba(182, 187, 187, 0.466) ;
+    border-left:1px solid rgba(182, 187, 187, 0.466) ;
+}
+.M1{
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    border-bottom: 1px solid rgba(182, 187, 187, 0.466);
+}
+
+
+.M2{
+    display: flex;
+    background-color: white;
+    align-items: center;
+    border-bottom: 10px solid rgba(182, 187, 187, 0.466);
+
+}
+.M2 img{
+    border-radius: 200px;
+}
+.M3{
+    text-align: center;
+    font-size: 15px;
+    background-color: white;
+    margin: 10px 0px 10px 0px;
+    border-bottom: 10px solid rgba(182, 187, 187, 0.466);
+}
+#right{
+    width: 35%;
+}
+input{
+    border-radius: 200px;
+    background-color:  rgba(182, 187, 187, 0.466);
+    margin-left: 20px;
+    width: 200px;
+    height: 30px;
+    margin-top: 2px;
+}
+.wtfollow1{
+    display: flex;
+    font-size: 12px;
+}
+.wtfollow2{
+    display: flex;
+    font-size: 13px;
+}
+.wtfollow3{
+    display: flex;
+    font-size: 13px;
+}

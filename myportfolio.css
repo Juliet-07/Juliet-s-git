@@ -1,0 +1,40 @@
+#header{
+    display: flex;
+    background-color: greenyellow;
+    align-items: center;
+    padding: 20px;
+    justify-content: space-between;
+}
+#header p{
+    margin: 7px;
+}
+img{
+    border-radius: 200px;
+    align-content: center;
+}
+#body{
+    background: linear-gradient(to bottom right, fuchsia, white, aquamarine);
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+#end{
+    display: flex;
+    background-color: black;
+    justify-content:space-around;
+    align-items: center;
+}
+#end h4{
+    color: bisque;
+}
+#end p{
+    color: wheat;
+}
+#smart{
+    cursor: pointer;
+}
+.lucky{
+    display: flex;
+    justify-content: flex-end;
+}
